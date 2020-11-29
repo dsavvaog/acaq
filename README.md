@@ -40,7 +40,7 @@ a. Αρχείο _config.ini_: Γραμμή 65: type=MinorCPU , γραμμή 15: 
 
    Αρχείο _config.json_: Γραμμή 84: “cxx_class”: “MinorCPU”
                                                 
-b. Σύμφωνα με το αρχείο stats.txt οι «committed» εντολές είναι 5028. Οι «committed operations» είναι 5834. Τα δύο νούμερα είναι διαφορετικά γιατί κάθε εντολή (instruction) μπορεί να "αναπτύσσεται" σε μία ή περισσότερες «committed operations».
+b. Σύμφωνα με το αρχείο stats.txt οι «committed» εντολές είναι 5028. Οι «committed operations» είναι 5834. Τα δύο νούμερα είναι διαφορετικά γιατί κάθε εντολή (instruction) μπορεί να "αναπτύσσεται" σε μία ή περισσότερες «committed operations».Άρα οι «committed operations» είναι ίσες οι περισσότερες σε αριθμό από τις «committed instructions».
 
 c. Σύμφωνα με το αρχείο stats.txt η L2 cache προσπελάστηκε συνολικά 479 φορές. Αν αυτή η πληροφορία δε δινόταν έτοιμη από τον εξομοιωτή θα μπορούσαμε να αθροίσουμε τις συνολικές προσπελάσεις της L2 cache για εντολές (instructions) και δεδομένα (data).                                        
 
